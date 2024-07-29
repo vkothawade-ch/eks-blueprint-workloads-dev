@@ -1,0 +1,12 @@
+{
+    "name": "eks-dev-01",
+    "env": "dev",
+    "spec": {
+        "variables" : {
+            "region" : "us-east-1",
+            "cluster_version" : "1.23",
+            "gitops_repo_url": "git@github.com:vkothawade-ch/eks-blueprint-workloads-dev.git",
+            "ssh_key_secret_name": "git-hub-ssh-key"
+        }
+    } 
+}
